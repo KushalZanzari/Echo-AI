@@ -78,7 +78,7 @@ To use this project or contribute, you can fork it to your own GitHub account an
 
 ```bash
 # Clone the repository
-gh repo clone KushalZanzari/Echo-AI
+https://github.com/KushalZanzari/Echo-AI.git
 
 # Navigate into the project folder
 cd voice-assistant
