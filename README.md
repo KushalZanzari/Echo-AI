@@ -60,8 +60,6 @@ voice-assistant/
 ├── voice-assistant/            # React frontend client
 │   ├── public/                 # Static public assets
 │   │   ├── index.html          # Main HTML entrypoint
-│   │   ├── kushal.png          # Portrait asset for Kushal Zanzari
-│   │   └── sneha.png           # Portrait asset for Sneha Chandravanshi
 │   │
 │   ├── src/                    # Frontend source files
 │   │   ├── index.js            # App wrapper and bootloader
