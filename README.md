@@ -155,17 +155,4 @@ npm start
 
 ---
 
-## 👥 Meet the Developers
 
-Echo AI is proudly conceptualized, built, and polished by:
-
-*   **Kushal Zanzari**  
-    🔗 [LinkedIn Profile](https://www.linkedin.com/in/kushal-z-a96535255)
-
-*   **Sneha Chandravanshi**  
-    🔗 [LinkedIn Profile](https://www.linkedin.com/in/sneha-chandravanshi-374082252)
-
----
-
-## 📄 License
-This project is open-source and available under the [MIT License](LICENSE). Feel free to use, modify, and build upon this platform.
