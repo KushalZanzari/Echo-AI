@@ -11,7 +11,6 @@ import ChatInterface from './ChatInterface';
 import Settings from './Settings';
 import DeveloperInfo from './DeveloperInfo';
 import ErrorBoundary from './ErrorBoundary';
-import { TranscriptProvider } from './TranscriptContext';
 
 // Protect routes that require authentication
 const ProtectedRoute = ({ children }) => {
@@ -21,7 +20,7 @@ const ProtectedRoute = ({ children }) => {
 
 function App() {
   return (
-    <TranscriptProvider>
+    <>
       <Toaster
         position="top-right"
         toastOptions={{
@@ -48,7 +47,7 @@ function App() {
           <Route path="/developers" element={<ProtectedRoute><DeveloperInfo /></ProtectedRoute>} />
         </Routes>
       </ErrorBoundary>
-    </TranscriptProvider>
+    <>
   );
 }
 
