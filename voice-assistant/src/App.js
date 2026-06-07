@@ -47,7 +47,7 @@ function App() {
           <Route path="/developers" element={<ProtectedRoute><DeveloperInfo /></ProtectedRoute>} />
         </Routes>
       </ErrorBoundary>
-    <>
+    </>
   );
 }
 
