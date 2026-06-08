@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useTranscript } from './TranscriptContext';
 import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
 import { ArrowLeft, MicOff } from 'lucide-react';
