@@ -7,7 +7,6 @@ const Sidebar = ({ isOpen, onClose, onNewChat, history, onSelectChat, currentCha
     const [searchQuery, setSearchQuery] = useState('');
     const [isProfileDropdownOpen, setIsProfileDropdownOpen] = useState(false);
     const [isArchivedExpanded, setIsArchivedExpanded] = useState(false);
-    const [isDevInfoOpen, setIsDevInfoOpen] = useState(false);
     const navigate = useNavigate();
 
     const handleLogout = () => {
@@ -166,9 +165,6 @@ const Sidebar = ({ isOpen, onClose, onNewChat, history, onSelectChat, currentCha
                     className="user-profile"
                     onClick={() => {
                         setIsProfileDropdownOpen(!isProfileDropdownOpen);
-                        if (isProfileDropdownOpen) {
-                            setIsDevInfoOpen(false); // Close dev info when closing dropdown
-                        }
                     }}
                 >
                     <div className="user-avatar-small" style={{ backgroundColor: '#e74c3c' }}>{userInitials}</div>
