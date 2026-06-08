@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { ArrowLeft, Eye, EyeOff, Sun, Moon, AudioLines } from "lucide-react";
+import { ArrowLeft, Eye, EyeOff, Sun, Moon } from "lucide-react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { toast } from 'react-hot-toast';
 import "./SignIn.css";
