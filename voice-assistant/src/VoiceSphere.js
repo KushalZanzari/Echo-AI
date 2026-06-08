@@ -10,10 +10,9 @@ const VoiceSphere = () => {
   const waveCanvasRef = useRef(null);
   const [localTranscript, setLocalTranscript] = useState("Listening...");
   const navigate = useNavigate();
-  const requestRef = useRef();
   const timeoutRef = useRef(null);
 
-  const { transcript, listening, resetTranscript } = useSpeechRecognition();
+  const { transcript } = useSpeechRecognition();
 
   // Auto-submit after 5 seconds of silence (no transcript change)
   useEffect(() => {
