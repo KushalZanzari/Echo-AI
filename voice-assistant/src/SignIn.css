@@ -1,13 +1,16 @@
 /* Container and layout */
 .signin-container {
   min-height: 100vh;
-  background: linear-gradient(150deg, #090909, #111111 55%, #1a1a1a);
-  color: var(--text-main);
   display: flex;
-  align-items: center;
   justify-content: center;
-  padding: 1rem;
-  position: relative;
+  align-items: flex-start;
+  padding: 2rem 1rem;
+  overflow-y: auto;
+}
+
+.signin-box {
+  width: 100%;
+  max-width: 400px;
 }
 
 /* Floating Theme Toggle */
